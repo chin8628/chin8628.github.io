@@ -10,20 +10,84 @@
 	<link rel="stylesheet" type="text/css" href="asset/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
 
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="asset/js/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="asset/js/materialize.min.js"></script>
+	<script type="text/javascript">
+
+	$(window).load(function(){
+	   $('#loading-page').fadeOut(1000);
+	});
+
+	$(document).ready(function(){
+	    $('.scrollspy').scrollSpy();
+	});
+
+	var options = [
+				    {selector: '.footer', offset: 0, callback: 'Materialize..showStaggeredList("#btn-top")' }
+				  ];
+	Materialize.scrollFire(options);
+
+	</script>
 
 </head>
 
 <body>
 	
+	<div id="loading-page">
+        <div id="my-preloader" class="center-align">
+        <div class="preloader-wrapper big active">
+          <div class="spinner-layer spinner-blue">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-red">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-yellow">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+
+          <div class="spinner-layer spinner-green">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div><div class="gap-patch">
+              <div class="circle"></div>
+            </div><div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <h5>Loading...</h5>
+      </div>
+    </div>
+
 	<div class="row">
 	
 		<div class="sidebar"></div>
 
 		<div class="col s10 offset-s2 header">
 	
-			<div class="name-website container center-align">
+			<div class="name-website container center-align scrollspy" id="top-page">
 				Cloudian Studio
 			</div>
 				
@@ -268,6 +332,10 @@
 			</div>
 
 		</footer>	
+
+		<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		    <a id="btn-top" class="btn-floating btn-large waves-effect waves-light red" href="#top-page"><i class="mdi-navigation-expand-less"></i></a>
+		</div>
 		
 	</div>
 
