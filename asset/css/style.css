@@ -7,6 +7,10 @@ html, body {
     margin: 0;
 }
 
+h1,h2{
+	font-size: 400%;
+}
+
 .header{
 	background: url("../img/bg.jpg");
 	background-position: center center;
@@ -19,6 +23,7 @@ html, body {
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 5em;
 	color: white;
+
 }
 
 .name{ 
@@ -33,6 +38,7 @@ html, body {
 .my-container{
 	padding-top: 5%;
 	padding-bottom: 5%;
+	font-size: 0.8em;
 }
 
 @-moz-keyframes animate-color {
@@ -98,4 +104,23 @@ html, body {
 	-ms-transition: rotateZ(360deg);
 	-o-transition: rotateZ(360deg);
 	transform: rotateZ(360deg);
+}
+
+#loading-page{
+  position:fixed;
+  z-index:99999;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(0,0,0,1);
+}
+
+#my-preloader{
+	position: absolute;
+	color: white;
+	top:50%;
+	left: 50%;
+	margin-top: -53px;
+	margin-left: -54.5px;
 }
