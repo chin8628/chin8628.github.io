@@ -9,10 +9,11 @@ $(document).ready(function(){
     var inview = new Waypoint.Inview({
 	  	element: $('.footer')[0],
 	  	entered: function() {
-	    	$('#btn-top').fadeIn(200);
+	    	$('#btn-top').fadeIn();
 	  	},
 	  	exited: function() {
-	    	$('#btn-top').fadeOut(200);
+	    	$('#btn-top').fadeOut();
 		}
 	})
+
 });
