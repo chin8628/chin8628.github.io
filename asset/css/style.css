@@ -2,13 +2,14 @@
 
 html, body {
     height:100%;
+    width: 100%;
     min-width: 480px;
     padding: 0;
     margin: 0;
 }
 
 h1,h2{
-	font-size: 400%;
+	font-size: 350%;
 }
 
 .header{
@@ -17,13 +18,14 @@ h1,h2{
 	background-repeat: repeat;
 	background-size:cover;
 	color: white;
+	height: 100%;
+	width: 100%;
 }
 
 .name-website{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 5em;
 	color: white;
-
 }
 
 .name{ 
@@ -31,7 +33,6 @@ h1,h2{
 }
 
 .block{
-	width: 100%;
 	font-size: 20;
 }
 
