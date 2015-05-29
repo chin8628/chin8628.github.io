@@ -74,6 +74,12 @@ h1,h2{
 	width: 100%;
 }
 
+.normal-line{
+	background-color: #ff6b1b;
+	height: 7px;
+	width: 100%;
+}
+
 .footer{
 	margin-bottom: -100%;
 	height: 60px;
