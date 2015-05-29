@@ -3,13 +3,21 @@
 html, body {
     height:100%;
     width: 100%;
-    min-width: 480px;
+    min-width: 650px;
     padding: 0;
     margin: 0;
 }
 
 h1,h2{
-	font-size: 350%;
+	font-size: 350%;	
+}
+
+a{
+	text-decoration: none;
+	color: #039be5;
+}
+a:hover{
+	color: #388e3c;
 }
 
 .header{
