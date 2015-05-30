@@ -1,15 +1,364 @@
 <html>
 <head>
-	
+
+	<meta charset=UTF-8>
+	<meta name="author" content="Boonyarith Piriyothinkul">
+	<meta name="Hi, My name is Boonyarith Piriyothinkul. Live in Bangkok, Thailand. I'm studying for Bachelor's degree and trying to learn about Programming. #WebDevelopment #Photographer #JustAnOrdinaryGuy">
+
 	<title>Cloudian Studio</title>
+	
 	<link rel="stylesheet" type="text/css" href="asset/css/materialize.min.css">
 	<link rel="stylesheet" type="text/css" href="asset/css/style.css">
+
+	<script type="text/javascript" src="asset/js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="asset/js/materialize.min.js"></script>
+	<script type="text/javascript" src="asset/js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="asset/js/inview.min.js"></script>
+	<script type="text/javascript" src="asset/js/detect-mobile.js"></script>
+	<script type="text/javascript" src="asset/js/script.js"></script>
+
+	<audio id="easter-egg" preload="auto">
+	  	<source src="asset/music.mp3" type="audio/mpeg">
+	</audio>
 
 </head>
 
 <body>
-	<div class="header">
-		<h1 class="center-align name">Boonyarith Piriyothinkul</h1>
+	
+	<div id="loading-page">
+        <div id="my-preloader" class="center-align">
+        	<div class="preloader-wrapper big active">
+          		<div class="spinner-layer spinner-blue">
+            		<div class="circle-clipper left">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="gap-patch">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="circle-clipper right">
+              			<div class="circle"></div>
+            		</div>
+          		</div>
+
+          		<div class="spinner-layer spinner-red">
+            		<div class="circle-clipper left">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="gap-patch">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="circle-clipper right">
+              			<div class="circle"></div>
+            		</div>
+          		</div>
+
+          		<div class="spinner-layer spinner-yellow">
+            		<div class="circle-clipper left">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="gap-patch">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="circle-clipper right">
+              			<div class="circle"></div>
+            		</div>
+          		</div>
+
+          		<div class="spinner-layer spinner-green">
+            		<div class="circle-clipper left">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="gap-patch">
+              			<div class="circle"></div>
+            		</div>
+            		<div class="circle-clipper right">
+              			<div class="circle"></div>
+            		</div>
+          		</div>
+        	</div>
+        	<br>
+        	<h5>Loading...</h5>
+      	</div>
+    </div>
+
+	<header>
+		<div class="container center-align scrollspy" id="top-page">
+			<div class="col s2">
+				<div id="fake-profile"></div>
+				<img src="asset/img/me.jpg" class="circle responsive-img" id="profile" width="15%">
+			</div>
+			<div class="name-website">Cloudian Studio</div>
+			<p class="describe">Hi, My name is Boonyarith Piriyothinkul. Live in Bangkok, Thailand.<br> I'm studying for Bachelor's degree and trying to learn about "Programming".</p>	
+			<p class="hashtag">#WebDevelopment #Photographer #JustAnOrdinaryGuy</p>
+		</div>	
+	</header>
+
+	<div class="row">
+
+		<div class="block col s12">
+		
+			<article class="container my-container ">
+
+				<h2><span class="amber-text text-darken-3">A</span>chievements</h2>
+		
+				<table class="bordered">
+			        <thead>
+			          <tr>
+			              <th data-field="id">Year</th>
+			              <th data-field="name">Event</th>
+			              <th data-field="price">Archievement</th>
+			          </tr>
+			        </thead>
+
+			        <tbody>
+			          <tr>
+			            <td>2010</td>
+			            <td>C Programming Competition (Kasetsart University Kamphaengsaen Campus)</td>
+			            <td>Honorable mention award</td>
+			          </tr>
+			          <tr>
+			            <td>2011</td>
+			            <td>Computer Olympiad Camp (Kasetsart University)</td>
+			            <td>Passed to the first camp</td>
+			          </tr>
+			          <tr>
+			            <td>2011</td>
+			            <td>Computer&IT Quiz (Pathumthani University)</td>
+			            <td>First prize</td>
+			          </tr>
+			          <tr>
+			            <td>2011</td>
+			            <td>National Linux Competition 11 | Linux client category</td>
+			            <td>Semi-final round</td>
+			          </tr>
+			          <tr>
+			            <td>2012</td>
+			            <td>Computer Olympiad Camp (King Mongkut's University of Technology North Bangkok)</td>
+			            <td>Passed to the second camp</td>
+			          </tr>
+			          <tr>
+			            <td>2012</td>
+			            <td>C Programming Competition (Kasetsart University Kamphaengsaen Campus)</td>
+			            <td>Honorable mention award</td>
+			          </tr>
+			          <tr>
+			            <td>2012</td>
+			            <td>National Linux Competition 12 | Linux client category</td>
+			            <td>Semi-final round</td>
+			          </tr>
+			          <tr>
+			            <td>2013</td>
+			            <td>Network's security Competition (King Mongkut's Institute of Technology Ladkrabang)</td>
+			            <td>First runner-up award</td>
+			          </tr>
+			          <tr>
+			            <td>2014</td>
+			            <td>Science's project Contest (Rajamangala University of Technology Thanyaburi)</td>
+			            <td>First prize</td>
+			          </tr>
+			          <tr>
+			            <td>2014</td>
+			            <td>Science's project Contest (Rajamangala University of Technology Thanyaburi)</td>
+			            <td>First prize</td>
+			          </tr>
+			          <tr>
+			            <td>2014</td>
+			            <td>PCC Science Symposium 2014 (Princess Chulabhorn's College Mukdahan)</td>
+			            <td>Second runner-up award</td>
+			          </tr>
+			          <tr>
+			            <td>2014</td>
+			            <td>Web Development Contest with PHP and JS (King Mongkut's Institute of Technology Ladkrabang)</td>
+			            <td>Honorable mention award</td>
+			          </tr>
+			        </tbody>
+			      </table>
+			
+			</article>
+		
+		</div>
+
+		<div class="line col s12"></div>
+
+		<div class="block col s12 grey lighten-3">
+
+			<div class="container my-container">
+
+				<h2><span class="amber-text text-darken-3">W</span>orks</h2>
+				<div class="row">
+			        <div class="col s4">
+			          	<div class="card medium">
+					        <div class="card-image waves-effect waves-block waves-light">
+					            <img class="activator" height="79%" src="asset/img/works/ss-random-group.PNG">
+					            <div class="normal-line"></div>
+					        </div>
+					        <div class="card-content">
+					            <span class="card-title activator grey-text text-darken-4">Random Group<i class="mdi-navigation-more-vert right"></i></span>
+					            <p><a href="http://www.cloudian.in.th/random/" target="blank">cloudian.in.th/random</a></p>
+					        </div>
+					        <div class="card-reveal">
+						        <span class="card-title grey-text text-darken-4">Random Group<i class="mdi-navigation-close right"></i></span>
+						        <p>Random Group is a first PHP's project. It's a web app for random group in my classroom.</p>
+						        <p><a href="http://github.com/chin8628/RandomGroup" target="blank">[Github]</a></p>
+					        </div>
+					    </div>
+			        </div>
+
+			        <div class="col s4">
+			          	<div class="card medium">
+					        <div class="card-image waves-effect waves-block waves-light">
+					            <img class="activator" height="79%" src="asset/img/works/ss-wtf-click.PNG">
+					            <div class="normal-line"></div>
+					        </div>
+					        <div class="card-content">
+					            <span class="card-title activator grey-text text-darken-4">ClickClickClick <i class="mdi-navigation-more-vert right"></i></span>
+					            <p><a href="http://www.cloudian.in.th/wtfclick/" target="blank">cloudian.in.th/wtfclick</a></p>
+					        </div>
+					        <div class="card-reveal">
+						        <span class="card-title grey-text text-darken-4">ClickClickClick <i class="mdi-navigation-close right"></i></span>
+						        <p>ClickClickClick is a racing-click game by Construct2. Made for PCCP Openhouse #1.</p>
+						        <p>Inspiration from @awkwin</p>
+					        </div>
+					    </div>
+			        </div>
+
+			        <div class="col s4">
+			          	<div class="card medium">
+					        <div class="card-image waves-effect waves-block waves-light">
+					            <img class="activator" height="79%" src="asset/img/works/ss-antiquecandle.PNG">
+					            <div class="normal-line"></div>
+					        </div>
+					        <div class="card-content">
+					            <span class="card-title activator grey-text text-darken-4">Antique Candle <i class="mdi-navigation-more-vert right"></i></span>
+					            <p><a href="http://www.antiquecandle.com/" target="blank">antiquecandle.com</a></p>
+					        </div>
+					        <div class="card-reveal">
+						        <span class="card-title grey-text text-darken-4">Antique Candle <i class="mdi-navigation-close right"></i></span>
+						        <p>We are a candle maker in Thailand. We offer gift or decorative items with beautiful handmade candle at reasonable price. We emphasize on producing handmade candle in antique style with design and usefulness.</p>
+					        </div>
+					    </div>
+			        </div>
+
+			        <div class="col s4">
+			          	<div class="card medium">
+					        <div class="card-image waves-effect waves-block waves-light">
+					            <img class="activator" height="79%" src="asset/img/works/ss-sic.PNG">
+					            <div class="normal-line"></div>
+					        </div>
+					        <div class="card-content">
+					            <span class="card-title activator grey-text text-darken-4">SIC Project <i class="mdi-navigation-more-vert right"></i></span>
+					        </div>
+					        <div class="card-reveal">
+						        <span class="card-title grey-text text-darken-4">SIC Project <i class="mdi-navigation-close right"></i></span>
+						        <p>[This is a private website, Not publicize outside my school]</p>
+						        <p>SIC Project is a student information center for registry club in my school.</p>
+						        <p><a href="http://github.com/chin8628/SIC" target="blank">[Github]</a></p>
+					        </div>
+					    </div>
+			        </div>
+
+			    </div>
+
+			</div>
+
+		</div>
+
+		<div class="line col s12"></div>
+
+		<div class="block col s12">
+		
+			<article class="container my-container ">
+		
+				<h2><span class="amber-text text-darken-3">G</span>allery <a href="http://www.facebook.com/cloudianstudio" target="blank" class="thin">[Cloudian Studio's facebook page]</a></h2>
+				<p class="alert"></p>
+				
+				<div class="row">
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00001.jpg" class="gallery responsive-img materialboxed z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00002.jpg" class="gallery responsive-img materialboxed z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00003.jpg" class="gallery responsive-img materialboxed  z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00004.jpg" class="gallery responsive-img materialboxed  z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00005.jpg" class="gallery responsive-img materialboxed  z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00006.jpg" class="gallery responsive-img materialboxed  z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00007.jpg" class="gallery responsive-img materialboxed  z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00008.jpg" class="gallery responsive-img materialboxed  z-depth-2">
+					</div>
+
+					<div class="col s4">
+						<img src="asset/img/gallery/Image00009.jpg" class="gallery responsive-img materialboxed  z-depth-2">
+					</div>
+
+				</div>
+
+			
+			</article>
+		
+		</div>
+
+
+		<div class="line col s12"></div>
+
+		<div class="block col s12  grey lighten-3">
+
+			<div class="container my-container center-align">
+				<h2>Contact</h2>
+				<div class="row">
+					<a href="http://www.facebook.com/chin8628" target="blank"><span class="contact-logo responsive-img"><img src="asset/img/icon/facebook@2x.png"></span></a>
+					<a href="https://plus.google.com/u/0/+BoonyarithPiriyothinkul" target="blank"><span class="contact-logo responsive-img"><img src="asset/img/icon/google+@2x.png"></span></a>
+					<a href="https://github.com/chin8628/" target="blank"><span class="contact-logo responsive-img"><img src="asset/img/icon/github@2x.png"></span></a>
+					<a href="http://blog.cloudian.in.th/" target="blank"><span class="contact-logo responsive-img"><img src="asset/img/icon/blogger@2x.png"></span></a>
+					<a class="modal-trigger" href="#modalEmail"><span class="contact-logo responsive-img"><img src="asset/img/icon/mail@2x.png"></span></a>
+				</div>	
+			</div>
+			  
+			<div id="modalEmail" class="modal">
+			    <div class="modal-content">
+			    	<h4>My E-mail</h4>
+			      	<p>boon.8628@hotmail.com</p>
+			    </div>
+			    <div class="modal-footer">
+				    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+			    	</div>
+			  	</div>
+			</div>
+
+		<div class="line col s12"></div>
+
+		<footer class="col s12 blue-grey darken-4">
+
+			<div class="container center-align">
+				<span>© 2015 All Rights Reserved. Design and developed by Cloudian Studio (Boonyarith Piriyothinkul).</span>
+			</div>
+
+		</footer>	
+
+		<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		    <a id="btn-top" class="btn-floating btn-large waves-effect waves-light red" href="#top-page"><i class="mdi-navigation-expand-less"></i></a>
+		</div>
+
 	</div>
+
 </body>
 </html>
