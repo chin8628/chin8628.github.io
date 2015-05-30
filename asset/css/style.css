@@ -149,3 +149,7 @@ h1,h2 > .thin{
 #profile{
 	display: none;
 }
+
+.alert{
+	color: red;
+}
