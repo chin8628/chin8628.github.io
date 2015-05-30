@@ -13,8 +13,6 @@ $(document).ready(function(){
     $('#btn-top').hide();
     $('.modal-trigger').leanModal();
 
-
-
     var inview = new Waypoint.Inview({
 	  	element: $('.footer')[0],
 	  	entered: function() {
@@ -24,5 +22,13 @@ $(document).ready(function(){
 	    	$('#btn-top').fadeOut();
 		}
 	})
+
+	if(jQuery.browser.mobile){
+		$('.alert').text("//Ahhh! Online on mobile? This section is not compatible with mobile.");
+		console.log('You are using a mobile device!');
+	}
+	else{
+	   console.log('You are using a PC!');
+	}
 
 });
