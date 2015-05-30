@@ -12,6 +12,10 @@ h1,h2{
 	font-size: 350%;	
 }
 
+h1,h2 > .thin{
+	font-size: 0.5em;
+}
+
 a{
 	text-decoration: none;
 	color: #039be5;
@@ -20,7 +24,7 @@ a:hover{
 	color: #388e3c;
 }
 
-.header{
+header{
 	background: url("../img/bg.jpg");
 	background-position: center center;
 	background-repeat: repeat;
@@ -30,7 +34,7 @@ a:hover{
 	width: 100%;
 }
 
-.header > .container{
+header > .container{
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
@@ -39,22 +43,33 @@ a:hover{
 	position: relative;
 }
 
-.header > .container > .name-website{
+header > .container > .name-website{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2em;
 	margin-top: 30px;
 	display: none;
 }
 
-.header > .container > .describe{
+header > .container > .describe{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
 	display: none;
 }
 
-.header > .container > .hashtag{
+header > .container > .hashtag{
 	display: none;
 }
+
+footer{
+	margin-bottom: -100%;
+	height: 60px;
+}
+
+footer > .container{
+	padding-top: 20px;
+	color: #888;
+}
+
 
 .block{
 	font-size: 20;
@@ -66,46 +81,20 @@ a:hover{
 	font-size: 0.8em;
 }
 
-@-moz-keyframes animate-color {
-	0% { background-color: #ff6b1b; }
-  	100% { background-color: #32a4b5; }
-}
-@-webkit-keyframes animate-color {
-	0% { background-color: #ff6b1b; }
-  	100% { background-color: #32a4b5; }
-}
-@keyframes animate-color {
-	0% { background-color: #ff6b1b; }
-  	100% { background-color: #32a4b5; }
+#profile{
+	display: none;
 }
 
-.line{
-	height: 5px;
-	-webkit-animation: animate-color 3s infinite;
-	-o-animation: animate-color 3s infinite;
-	animation: animate-color 3s infinite;
-	animation-direction: alternate;
-	width: 100%;
+#fake-profile{
+	height: 1px;
 }
 
-.normal-line{
-	background-color: #ff6b1b;
-	height: 7px;
-	width: 100%;
-}
-
-.footer{
-	margin-bottom: -100%;
-	height: 60px;
-	padding-top: 20px;
-	color: #888;
-}
-
-h1,h2 > .thin{
-	font-size: 0.5em;
-}
 .gallery{
 	margin-bottom: 8%;
+}
+
+.alert{
+	color: red;
 }
 
 .contact-logo{
@@ -142,14 +131,30 @@ h1,h2 > .thin{
 	margin-left: -54.5px;
 }
 
-.fake{
-	height: 1px;
+@-moz-keyframes animate-color {
+	0% { background-color: #ff6b1b; }
+  	100% { background-color: #32a4b5; }
+}
+@-webkit-keyframes animate-color {
+	0% { background-color: #ff6b1b; }
+  	100% { background-color: #32a4b5; }
+}
+@keyframes animate-color {
+	0% { background-color: #ff6b1b; }
+  	100% { background-color: #32a4b5; }
 }
 
-#profile{
-	display: none;
+.line{
+	height: 5px;
+	-webkit-animation: animate-color 3s infinite;
+	-o-animation: animate-color 3s infinite;
+	animation: animate-color 3s infinite;
+	animation-direction: alternate;
+	width: 100%;
 }
 
-.alert{
-	color: red;
+.normal-line{
+	background-color: #ff6b1b;
+	height: 7px;
+	width: 100%;
 }
