@@ -43,11 +43,17 @@ a:hover{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2em;
 	margin-top: 30px;
+	display: none;
 }
 
 .header > .container > .describe{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
+	display: none;
+}
+
+.header > .container > .hashtag{
+	display: none;
 }
 
 .block{
@@ -134,4 +140,12 @@ h1,h2 > .thin{
 	left: 50%;
 	margin-top: -53px;
 	margin-left: -54.5px;
+}
+
+.fake{
+	height: 1px;
+}
+
+#profile{
+	display: none;
 }
