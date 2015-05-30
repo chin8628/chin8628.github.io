@@ -1,5 +1,5 @@
 # cloudian.in.th
-Cloudian Site's source code
+Cloudian website's source code
 
 ### Tools
 - MaterializeCSS (http://materializecss.com/)
