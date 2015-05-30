@@ -14,7 +14,7 @@ $(document).ready(function(){
     $('.modal-trigger').leanModal();
 
     var inview = new Waypoint.Inview({
-	  	element: $('.footer')[0],
+	  	element: $('footer')[0],
 	  	entered: function() {
 	    	$('#btn-top').fadeIn();
 	  	},
