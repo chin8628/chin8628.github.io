@@ -13,6 +13,18 @@ $(document).ready(function(){
     $('#btn-top').hide();
     $('.modal-trigger').leanModal();
 
+    var checkEasterEgg = true;
+    $("#profile").dblclick(function() {
+    	if(checkEasterEgg){
+			document.getElementById('easter-egg').play();
+			checkEasterEgg = !checkEasterEgg;
+		}
+		else{
+			document.getElementById('easter-egg').pause();
+			checkEasterEgg = !checkEasterEgg;
+		}
+	});
+
     var inview = new Waypoint.Inview({
 	  	element: $('footer')[0],
 	  	entered: function() {
