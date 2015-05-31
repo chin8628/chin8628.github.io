@@ -13,16 +13,17 @@ $(document).ready(function(){
     $('#btn-top').hide();
     $('.modal-trigger').leanModal();
 
-    var checkEasterEgg = true;
     $("#profile").dblclick(function() {
-    	if(checkEasterEgg){
-			document.getElementById('easter-egg').play();
-			checkEasterEgg = !checkEasterEgg;
-		}
-		else{
-			document.getElementById('easter-egg').pause();
-			checkEasterEgg = !checkEasterEgg;
-		}
+		$('.name-website').fadeOut(1000);
+		$('.describe').fadeOut(1000);
+		$('.hashtag').fadeOut(1000);
+		$('#profile').fadeOut(1000 ,function(){
+			$('#ayano-profile').fadeIn(3000);
+			$('#ayano-name-website').fadeIn(3000);
+			$('#ayano-describe').fadeIn(3000);
+			$('#ayano-hashtag').fadeIn(3000);
+		});
+		document.getElementById('easter-egg').play();
 	});
 
     var inview = new Waypoint.Inview({

@@ -43,20 +43,22 @@ header > .container{
 	position: relative;
 }
 
-header > .container > .name-website{
+header > .container > #profile, #ayano-profile{ display: none; }
+
+header > .container > .name-website, #ayano-name-website{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 2em;
 	margin-top: 30px;
 	display: none;
 }
 
-header > .container > .describe{
+header > .container > .describe, #ayano-describe{
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 1em;
 	display: none;
 }
 
-header > .container > .hashtag{
+header > .container > .hashtag, #ayano-hashtag{
 	display: none;
 }
 
@@ -70,32 +72,17 @@ footer > .container{
 	color: #888;
 }
 
-
-.block{
-	font-size: 20;
-}
-
 .my-container{
 	padding-top: 5%;
 	padding-bottom: 5%;
 	font-size: 0.8em;
 }
 
-#profile{
-	display: none;
-}
+#fake-profile{ height: 1px; }
 
-#fake-profile{
-	height: 1px;
-}
-
-.gallery{
-	margin-bottom: 8%;
-}
-
-.alert{
-	color: red;
-}
+.block{	font-size: 20; }
+.gallery{ margin-bottom: 8%; }
+.alert{ color: red; }
 
 .contact-logo{
 	margin-right: 1%;
