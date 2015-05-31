@@ -15,6 +15,7 @@ $(document).ready(function(){
 
     var DoubleClickCheck = true;
     $("#profile").dblclick(function() {
+    		$('title').text("Mekakushi Dan");
 			$('.name-website').fadeOut(1000);
 			$('.describe').fadeOut(1000);
 			$('.hashtag').fadeOut(1000);
@@ -28,6 +29,7 @@ $(document).ready(function(){
 	});
 
 	$("#ayano-profile").dblclick(function() {
+		$('title').text("Cloudian Studio");
 		$('#ayano-name-website').fadeOut(1000);
 		$('#ayano-describe').fadeOut(1000);
 		$('#ayano-hashtag').fadeOut(1000);
