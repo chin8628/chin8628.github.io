@@ -1,9 +1,9 @@
 $(window).load(function(){
    	$('#loading-page').fadeOut(1000 ,function(){
-		$('#profile').fadeIn(3000);
-		$('.name-website').fadeIn(3000);
-		$('.describe').fadeIn(3000);
-		$('.hashtag').fadeIn(3000);
+		$('#profile').fadeIn(2000);
+		$('.name-website').fadeIn(2000);
+		$('.describe').fadeIn(2000);
+		$('.hashtag').fadeIn(2000);
    	});
 });
 
@@ -13,16 +13,31 @@ $(document).ready(function(){
     $('#btn-top').hide();
     $('.modal-trigger').leanModal();
 
-    var checkEasterEgg = true;
+    var DoubleClickCheck = true;
     $("#profile").dblclick(function() {
-    	if(checkEasterEgg){
+			$('.name-website').fadeOut(1000);
+			$('.describe').fadeOut(1000);
+			$('.hashtag').fadeOut(1000);
+			$('#profile').fadeOut(1000 ,function(){
+				$('#ayano-profile').fadeIn(3000);
+				$('#ayano-name-website').fadeIn(3000);
+				$('#ayano-describe').fadeIn(3000);
+				$('#ayano-hashtag').fadeIn(3000);
+			});
 			document.getElementById('easter-egg').play();
-			checkEasterEgg = !checkEasterEgg;
-		}
-		else{
-			document.getElementById('easter-egg').pause();
-			checkEasterEgg = !checkEasterEgg;
-		}
+	});
+
+	$("#ayano-profile").dblclick(function() {
+		$('#ayano-name-website').fadeOut(1000);
+		$('#ayano-describe').fadeOut(1000);
+		$('#ayano-hashtag').fadeOut(1000);
+		$('#ayano-profile').fadeOut(1000 ,function(){
+			$('#profile').fadeIn(3000);
+			$('.name-website').fadeIn(3000);
+			$('.describe').fadeIn(3000);
+			$('.hashtag').fadeIn(3000);
+		});
+		document.getElementById('easter-egg').pause();
 	});
 
     var inview = new Waypoint.Inview({
