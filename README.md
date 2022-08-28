@@ -1,14 +1,3 @@
-# cloudian.in.th
-Cloudian website's source code
+# My personal homepage.
 
-### Tools
-- MaterializeCSS (http://materializecss.com/)
-- Detect Mobile Browsers (http://detectmobilebrowsers.com/)
-- Waypoints (http://imakewebthings.com/waypoints/)
-- Jquery (https://jquery.com/)
-
-### Special Thanks!
-
-- @korstudio
-- @winwanwon
-- @ntf_14
+Check out at [cloudian.in.th](https://cloudian.in.th)
