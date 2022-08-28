@@ -1,12 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>cloudian.in.th</title>
+
+	<link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+		body {
+			font-family: 'Playfair Display', serif;
+			font-size: 14px;
+			color: #404040;
+			height: 100vh;
+			width: 100vw;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		@media screen and (width < 420px) {
+			body {
+				font-size: 12px;
+			}
+		}
+
+		a {
+			color: inherit;
+		}
+
+		a:hover {
+			color: #777;
+		}
+
+		#card {
+			box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+			padding: 28px;
+			width: 400px;
+			height: 222px;
+			position: relative;
+			box-sizing: border-box;
+		}
+
+		@media screen and (width < 420px) {
+			#card {
+				padding: 28px 16px;
+				width: 222px;
+				height: 300px;
+			}
+		}
+
+		#more-info {
+			bottom: 28px;
+			left: 28px;
+			position: absolute;
+		}
+
+		@media screen and (width < 420px) {
+			#more-info {
+				bottom: 20px;
+				left: 16px;
+			}
+		}
+
+		h1 {
+			margin: 0;
+			font-weight: bold;
+			font-size: 2em;
+		}
+
+		@media screen and (width < 420px) {
+			h1 {
+				font-size: 2.3em
+			}
+		}
+
+		h2 {
+			margin: 8px 0 0 0;
+			font-size: 1.4em;
+			font-weight: normal;
+		}
+
+		p {
+			margin: 0 0 8px 0;
+		}
+
+		.icon {
+			max-width: 12px;
+			height: 12px;
+			text-align: center;
+			margin-right: 4px;
+			margin-bottom: -2px;
+		}
+
+		#flip-info {
+			margin-top: 16px;
+			color: #777;
+		}
+
+		@media screen and (width < 420px) {
+			#flip-info {
+				margin-top: 8px;
+			}
+		}
+	</style>
 </head>
+
 <body>
-	
+	<section id="card">
+		<h1>
+			Boonyarith Piriyothinkul
+		</h1>
+		<h2>
+			Software Engineer
+		</h2>
+
+		<div id="more-info">
+			<p>
+				<img src="icons/mail.svg" class="icon" />
+				<a href="mailto:boonyarith.pir@gmail.com">boonyarith.pir@gmail.com</a>
+			</p>
+
+			<p>
+				<img src="icons/location.svg" class="icon" style="margin-left: 2px" />
+				Bangkok, Thailand
+			</p>
+		</div>
+	</section>
+	<div>
+		<p id="flip-info">Drag to flip the card</p>
+	</div>
 </body>
+
 </html>
