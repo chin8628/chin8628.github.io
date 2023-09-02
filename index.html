@@ -82,9 +82,13 @@
 			justify-content: center;
 		}
 
-		.section-1 {
+		#section-1 {
 			flex-direction: column;
 			padding: 0;
+		}
+
+		#section-2 {
+			flex-direction: column;
 		}
 
 		#see-more {
@@ -128,11 +132,19 @@
 			font-size: 1.4em;
 			line-height: 1.4em;
 		}
+
+		.gallery {
+			padding: 32px;
+			display: grid;
+			grid-template-rows: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 8px;
+		}
 	</style>
 </head>
 
 <body>
-	<section class="section-1 flex-center">
+	<section id="section-1" class="flex-center">
 		<div id="card">
 			<h1>Boonyarith Piriyothinkul</h1>
 			<h2>Software Engineer</h2>
@@ -160,11 +172,153 @@
 
 	<section class="flex-center">
 		<div class="hero-text text-center">
-			<strong>Hey!</strong> 👋<br>
-			I'm Chin, a software engineer based in Bangkok, Thailand.<br><br>
-			When I'm not at work, I'm a (home) chef in my kitchen 🧑‍🍳.<br>
-			I'm also quite the adventurer, whether it's climbing, trekking, or fencing <br>
-			(Yes, I mean fencing with a sword 🤺)<br>
+			<p>
+				<strong>Hey!</strong> 👋<br>
+				I'm Chin, a software engineer based in Bangkok, Thailand.<br><br>
+				When I'm not at work, I'm a head chef in my home 🧑‍🍳.<br>
+				I'm also quite the adventurer, whether it's climbing, trekking, or fencing <br>
+			</p>
+		</div>
+	</section>
+
+	<script>
+		customElements.define(
+			"gallery-thumbnail",
+			class extends HTMLElement {
+				connectedCallback() {
+					let template = document.getElementById("gallery-thumbnail");
+					let templateContent = template.content;
+					const shadowRoot = this.attachShadow({mode: "open"});
+					shadowRoot.appendChild(templateContent.cloneNode(true));
+
+					const src = this.getAttribute("src")
+					const img = shadowRoot.getElementById("thumbnail")
+					const dialog = shadowRoot.getElementById("full-photo-dialog")
+					img.setAttribute("src", src)
+					img.addEventListener('click', (event) => {
+						dialog.showModal()
+					})
+
+					const fullImgSrc = this.getAttribute("full-src")
+					const dialogFullPhoto = shadowRoot.getElementById("full-photo")
+					dialogFullPhoto.setAttribute("src", fullImgSrc)
+				}
+			},
+		);
+	</script>
+
+	<template id="gallery-thumbnail">
+		<style>
+			#thumbnail {
+				max-height: 200px;
+				height: 25vw;
+				object-fit: cover;
+				object-position: center;
+			}
+
+			#thumbnail:hover {
+				filter: brightness(1.2);
+			}
+
+			dialog {
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100vw;
+				height: 100vh;
+				border: 0;
+				background: rgba(40, 40, 40, 0.8);
+			}
+
+			#full-photo {
+				width: 100%;
+				height: 100%;
+				max-width: 95vw;
+				max-height: 95vh;
+				object-fit: contain;
+			}
+
+			#close {
+				position: absolute;
+				top: 24px;
+				right: 24px;
+				background: none;
+				border: 0;
+				color: white;
+				cursor: pointer;
+			}
+		</style>
+
+		<img id="thumbnail" src="" alt=""/>
+		<dialog id="full-photo-dialog">
+			<img id="full-photo" src="" alt="">
+			<form method="dialog">
+				<button id="close">X</button>
+			</form>
+		</dialog>
+	</template>
+
+	<section id="section-2" class="flex-center">
+		<div class="hero-text text-center">
+			<p>
+				I also love photography. I use my smartphone as a main camera.<br>
+				Here are some photos I want to show.
+			</p>
+		</div>
+
+		<div class="gallery">
+			<dialog id="photo-showcase-1">
+				<img src="photos/photo-showcase-1.jpg" alt="" class="full-photo">
+				<form method="dialog">
+					<button>OK</button>
+				</form>
+			</dialog>
+
+			<gallery-thumbnail
+				src="photos/photo-showcase-1-thumbnail.jpg"
+				full-src="photos/photo-showcase-1.jpg"
+				data-photo-id="photo-showcase-1">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-2-thumbnail.jpg"
+				full-src="photos/photo-showcase-2.jpg"
+				data-photo-id="photo-showcase-2">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-3-thumbnail.jpg"
+				full-src="photos/photo-showcase-3.jpg"
+				data-photo-id="photo-showcase-3">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-4-thumbnail.jpg"
+				full-src="photos/photo-showcase-4.jpg"
+				data-photo-id="photo-showcase-4">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-5-thumbnail.jpg"
+				full-src="photos/photo-showcase-5.jpg"
+				data-photo-id="photo-showcase-5">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-6-thumbnail.jpg"
+				full-src="photos/photo-showcase-6.jpg"
+				data-photo-id="photo-showcase-6">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-7-thumbnail.jpg"
+				full-src="photos/photo-showcase-7.jpg"
+				data-photo-id="photo-showcase-7">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-8-thumbnail.jpeg"
+				full-src="photos/photo-showcase-8.jpeg"
+				data-photo-id="photo-showcase-8">
+			</gallery-thumbnail>
+			<gallery-thumbnail
+				src="photos/photo-showcase-9-thumbnail.jpeg"
+				full-src="photos/photo-showcase-9.jpeg"
+				data-photo-id="photo-showcase-9">
+			</gallery-thumbnail>
 		</div>
 	</section>
 </body>
