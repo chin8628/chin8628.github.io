@@ -94,6 +94,24 @@
 		#see-more {
 			position: absolute;
 			bottom: 32px;
+			animation-name: bounce;
+			animation-timing-function: ease-in-out;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+		}
+
+		@keyframes bounce {
+			from {
+				bottom: 32px;
+			}
+
+			50% {
+				bottom: 40px;
+			}
+
+			to {
+				bottom: 32px;
+			}
 		}
 
 		#card {
@@ -166,7 +184,7 @@
 		</div>
 
 		<div id="see-more">
-			<p>Scroll down for more about me</p>
+			<i class="fa-solid fa-angles-down" style="color: #3f3f3f;"></i>
 		</div>
 	</section>
 
