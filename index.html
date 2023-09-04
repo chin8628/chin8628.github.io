@@ -19,6 +19,7 @@
 		gtag('config', 'UA-31207546-2');
 	</script>
 
+	<script src="components/dialog/dialog.js"></script>
 	<script src="https://kit.fontawesome.com/5aeca4c45d.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="reset.css" media="screen"/>
 
@@ -198,83 +199,6 @@
 			</p>
 		</div>
 	</section>
-
-	<script>
-		customElements.define(
-			"gallery-thumbnail",
-			class extends HTMLElement {
-				connectedCallback() {
-					let template = document.getElementById("gallery-thumbnail");
-					let templateContent = template.content;
-					const shadowRoot = this.attachShadow({mode: "open"});
-					shadowRoot.appendChild(templateContent.cloneNode(true));
-
-					const src = this.getAttribute("src")
-					const img = shadowRoot.getElementById("thumbnail")
-					const dialog = shadowRoot.getElementById("full-photo-dialog")
-					img.setAttribute("src", src)
-					img.addEventListener('click', (event) => {
-						dialog.showModal()
-					})
-
-					const fullImgSrc = this.getAttribute("full-src")
-					const dialogFullPhoto = shadowRoot.getElementById("full-photo")
-					dialogFullPhoto.setAttribute("src", fullImgSrc)
-				}
-			},
-		);
-	</script>
-
-	<template id="gallery-thumbnail">
-		<style>
-			#thumbnail {
-				max-height: 200px;
-				height: 25vw;
-				object-fit: cover;
-				object-position: center;
-			}
-
-			#thumbnail:hover {
-				filter: brightness(1.2);
-			}
-
-			dialog {
-				position: fixed;
-				top: 0;
-				left: 0;
-				width: 100vw;
-				height: 100vh;
-				border: 0;
-				background: rgba(40, 40, 40, 0.8);
-			}
-
-			#full-photo {
-				width: 100%;
-				height: 100%;
-				max-width: 95vw;
-				max-height: 95vh;
-				object-fit: contain;
-			}
-
-			#close {
-				position: absolute;
-				top: 24px;
-				right: 24px;
-				background: none;
-				border: 0;
-				color: white;
-				cursor: pointer;
-			}
-		</style>
-
-		<img id="thumbnail" src="" alt=""/>
-		<dialog id="full-photo-dialog">
-			<img id="full-photo" src="" alt="">
-			<form method="dialog">
-				<button id="close">X</button>
-			</form>
-		</dialog>
-	</template>
 
 	<section id="section-2" class="flex-center">
 		<div class="hero-text text-center">
