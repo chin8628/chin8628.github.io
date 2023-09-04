@@ -96,7 +96,7 @@ section {
     height: 260px;
     position: relative;
     box-sizing: border-box;
-    margin-top: -32px;
+    margin-top: -64px;
 }
 
 @media screen and (width < 420px) {
