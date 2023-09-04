@@ -10,7 +10,7 @@ customElements.define(
             const img = shadowRoot.getElementById("thumbnail")
             const dialog = shadowRoot.getElementById("full-photo-dialog")
             img.setAttribute("src", src)
-            img.addEventListener('click', (event) => {
+            img.addEventListener('click', () => {
                 dialog.showModal()
             })
 
