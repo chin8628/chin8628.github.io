@@ -96,14 +96,14 @@ section {
     height: 260px;
     position: relative;
     box-sizing: border-box;
-    margin-top: -64px;
+    margin-top: -120px;
 }
 
 @media screen and (width < 420px) {
     #card {
         padding: 28px 24px;
-        width: 260px;
-        height: 340px;
+        width: 280px;
+        height: 360px;
     }
 }
 
