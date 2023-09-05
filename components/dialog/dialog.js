@@ -42,7 +42,7 @@ const html = `
 		}
 	</style>
 
-	<img id="thumbnail" src="" alt=""/>
+	<img id="thumbnail" src="" alt="" loading="lazy"/>
 	<dialog id="full-photo-dialog">
 		<img id="full-photo" src="" alt="" loading="lazy">
 		<form method="dialog">
