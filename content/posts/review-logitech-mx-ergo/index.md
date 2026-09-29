@@ -64,9 +64,9 @@ aliases:
 
 วิธีปรับแต่งไปหาเอาเองละกัน...
 
-{{< figure src="Screen-Shot-2563-06-01-at-00.21.48.png" alt="หน้าโปรแกรม Logi Options ส่วนของ Logitech MX Ergo" >}}
+{{< figure src="Screen-Shot-2563-06-01-at-00.21.48.jpg" alt="หน้าโปรแกรม Logi Options ส่วนของ Logitech MX Ergo" >}}
 
-{{< figure src="Screen-Shot-2563-06-01-at-00.25.25.png" alt="หน้าปรับแต่งส่วน Trackball ของ Logi Options สำหรับ Logitech MX Ergo" >}}
+{{< figure src="Screen-Shot-2563-06-01-at-00.25.25.jpg" alt="หน้าปรับแต่งส่วน Trackball ของ Logi Options สำหรับ Logitech MX Ergo" >}}
 
 นอกจากนี้ตัวเมาส์ยังสามารถปรับเอียงขึ้น 20 องศาได้ด้วย กลายเป็น Trackball เมาส์ผสมกับกึ่ง ๆ Vertical mouse ซึ่งทำให้ข้อมือเราไม่พับลงขนานไปกับโต๊ะ ซึ่งเป็นทางที่ดีกับสุขภาพมากกว่าท่าจับเมาส์แนวระนาบที่เราทำอยู่ทั่วไป (เขาว่ามานะ)
 

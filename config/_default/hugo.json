@@ -19,6 +19,26 @@
    "taxonomies": {
       "tag": "tags"
    },
+   "imaging": {
+      "resampleFilter": "lanczos",
+      "anchor": "smart",
+      "bgColor": "#ffffff",
+      "jpeg": {
+         "quality": 75
+      },
+      "webp": {
+         "quality": 75,
+         "hint": "photo"
+      },
+      "avif": {
+         "quality": 75,
+         "hint": "photo"
+      },
+      "meta": {
+         "fields": ["! *{GPS,Exif,Exposure[MPB],Contrast,Resolution,Sharp,JPEG,Metering,Sensing,Saturation,ColorSpace,Flash,WhiteBalance}*"],
+         "sources": ["exif", "iptc"]
+      }
+   },
    "markup": {
       "goldmark": {
          "renderer": {

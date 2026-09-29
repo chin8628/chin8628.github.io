@@ -22,11 +22,11 @@ aliases:
 
 งวดวันที่ 16 กันยายน 2562 นั้นรางวัลสองตัวท้ายออก **85**
 
-{{< figure src="Screen-Shot-2563-02-16-at-00.16.40.png" alt="ภาพจาก https://news.sanook.com/lotto/check/16092562/" >}}
+{{< figure src="Screen-Shot-2563-02-16-at-00.16.40.jpg" alt="ภาพจาก https://news.sanook.com/lotto/check/16092562/" >}}
 
 และงวดวันที่ 1 พฤศจิกายน 2562 ออก **79** ด้วยเช่นเดียวกัน
 
-{{< figure src="Screen-Shot-2563-02-16-at-00.16.50.png" alt="ภาพจาก https://news.sanook.com/lotto/check/01112562/" >}}
+{{< figure src="Screen-Shot-2563-02-16-at-00.16.50.jpg" alt="ภาพจาก https://news.sanook.com/lotto/check/01112562/" >}}
 
 เท่ากับว่าที่เราทายสองตัวท้ายไว้ก็ถูกต้องตามที่คาดหวังไว้ แถมสองตัวนี้ยังมาออกท้ายปีตามที่เราแนะนำให้ซื้อช่วงท้ายปีเลย ถ้าเล่นตามนี้ก็คงได้เงินมาพันนิด ๆ หักลบต้นทุนไป
 

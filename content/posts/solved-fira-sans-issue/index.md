@@ -4,7 +4,7 @@ date: '2018-11-11 10:37:19'
 draft: false
 slug: solved-fira-sans-issue
 cover:
-  image: 1280px-LaTeX_logo.svg.png
+  image: 1280px-LaTeX_logo.svg.jpg
   relative: true
 aliases:
   - /2018/11/11/solved-fira-sans-issue/

@@ -28,7 +28,7 @@ FYI: There are WSL and WSL2. In this article, I use WSL2. Please bear in mind th
 
 Running everything inside WSL means you have to run ADB, Metro, Expo bundler, and the Android emulator in WSL.
 
-{{< figure src="image-1.png" caption="Console is connecting WSL. The emulator screen is also run inside WSL but Windows handle GUI stuff and display it on Windows side seamlessly." >}}
+{{< figure src="image-1.jpg" caption="Console is connecting WSL. The emulator screen is also run inside WSL but Windows handle GUI stuff and display it on Windows side seamlessly." >}}
 
 It worked at first. After changing something in source code, the emulator broke due to an issue related to CPU processing that I couldn't understand. Hence, I moved on to another solution.
 
@@ -99,7 +99,7 @@ ifconfig
 
 4\. Finally, set React Native debugger host on React Native App’s dev menu. (For Windows, press `ctrl + m`  in the app to make a dev menu shown up)
 
-{{< figure src="image.png" >}}
+{{< figure src="image.jpg" >}}
 
 ### Video
 

@@ -74,7 +74,7 @@ Edited: ระลึกชาติได้ว่าเคยเขียน[�
 
 ## Missed Messages
 
-{{< figure src="UExjy_.png" >}}
+{{< figure src="UExjy_.jpg" >}}
 
 เกมนี้เคยเขียนรีวิวไปตอนปี 2019 สามารถวนกลับไปอ่านเพิ่มยอดวิวให้เราได้ที่[ลิงค์นี้](/posts/review-game-missed-messages/)
 

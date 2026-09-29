@@ -26,7 +26,7 @@ aliases:
 
 Link: [Shopee](https://shope.ee/VkQLQXAQL)
 
-{{< figure src="image-6.png" >}}
+{{< figure src="image-6.jpg" >}}
 
 ### กางเกงในใช้แล้วทิ้ง DODOLOVE
 
@@ -36,7 +36,7 @@ Link: [Shopee](https://shope.ee/VkQLQXAQL)
 
 Link: [Shopee](https://shope.ee/1fwNmSdsOY)
 
-{{< figure src="image-7.png" >}}
+{{< figure src="image-7.jpg" >}}
 
 ### ที่ฉีดก้นพกพาแบบไฟฟ้า Wash (เราแนะนำสุด ๆ)
 
@@ -44,11 +44,11 @@ Link: [Shopee](https://shope.ee/1fwNmSdsOY)
 
 ซึ่งเป็นสิ่งที่เราคิดว่าตัดสินใจถูกที่สุดและเราแฮปปี้ที่ได้ซื้อมาใช้มาก!
 
-{{< figure src="image-3.png" >}}
+{{< figure src="image-3.jpg" >}}
 
 มันไซส์กระทัดรัด ใส่ถ่าน AAA สองก้อน กดปุ่มที่เครื่องแล้วน้ำจะพุ่งออกมาเหมือนที่ฉีดก้นในชักโครกญี่ปุ่นเลย น้ำไม่ได้แรงมากแต่ถือว่าโอเคสำหรับใช้งานกลางป่ากลางเขา
 
-{{< figure src="image-4.png" caption="จากซ้ายไปขวา: ซิลิโคนหุ้มหัวฉีด, หัวฉีด, เครื่องฉีดน้ำ, กระบอกน้ำ" >}}
+{{< figure src="image-4.jpg" caption="จากซ้ายไปขวา: ซิลิโคนหุ้มหัวฉีด, หัวฉีด, เครื่องฉีดน้ำ, กระบอกน้ำ" >}}
 
 เวลาจะใช้ก็ถอดกระบอกน้ำมาใส่น้ำแล้วต่อเครื่องฉีดเข้ากับกระบอกน้ำ จากนั้นแค่กางหัวฉีดแล้วกดปุ่มที่เครื่อง น้ำก็พุ่งออกมาเลย แถมล้างเก็บสะดวกด้วย
 
@@ -56,7 +56,7 @@ Link: [Shopee](https://shope.ee/1fwNmSdsOY)
 
 Link: [Shopee](https://shope.ee/2q8LBEbHPO) (หรือไปซื้อตามร้านขายยา Save Drug)
 
-{{< figure src="image-8.png" >}}
+{{< figure src="image-8.jpg" >}}
 
 ### Optimum Nutrition Gold Standard Whey Protein 1 Lbs
 
@@ -68,7 +68,7 @@ Link: [Shopee](https://shope.ee/2q8LBEbHPO) (หรือไปซื้อต�
 
 Link: [Shopee](https://shope.ee/3L4bmFB5js)
 
-{{< figure src="image-5.png" >}}
+{{< figure src="image-5.jpg" >}}
 
 ### เสื้อยืด Uniqlo AIRISM Cotton
 
@@ -80,7 +80,7 @@ Link: [Shopee](https://shope.ee/3L4bmFB5js)
 
 Link: [Uniqlo](https://www.uniqlo.com/th/th/products/E467273-000?colorCode=COL09&sizeCode=SMA003)
 
-{{< figure src="image-9.png" caption="คราบขี้เกลือชัดเจนแต่ไม่มีกลิ่น" >}}
+{{< figure src="image-9.jpg" caption="คราบขี้เกลือชัดเจนแต่ไม่มีกลิ่น" >}}
 
 ## ของที่เพื่อนใช้แล้วเราอยากซื้อตาม
 
@@ -94,7 +94,7 @@ Link: [Uniqlo](https://www.uniqlo.com/th/th/products/E467273-000?colorCode=COL09
 
 Link: [Shopee](https://shope.ee/605My4QJOB)
 
-{{< figure src="image-12.png" >}}
+{{< figure src="image-12.jpg" >}}
 
 ### เสื้อแจ็คเก็ตกันน้ำ ใส่เดินป่ารุ่น MH500 (Decathlon)
 
@@ -104,4 +104,4 @@ Link: [Shopee](https://shope.ee/605My4QJOB)
 
 Link: ([Shopee](https://s.shopee.co.th/3AxoeKdQTa))
 
-{{< figure src="image-13.png" caption="ภาพจากเว็บไซต์ Decatlon" >}}
+{{< figure src="image-13.jpg" caption="ภาพจากเว็บไซต์ Decatlon" >}}

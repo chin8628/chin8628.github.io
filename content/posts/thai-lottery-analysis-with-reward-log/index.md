@@ -4,7 +4,7 @@ date: '2019-04-29 15:17:12'
 draft: false
 slug: thai-lottery-analysis-with-reward-log
 cover:
-  image: Screenshot--49-.png
+  image: Screenshot--49-.jpg
   relative: true
 aliases:
   - /2019/04/29/thai-lottery-analysis-with-reward-log/

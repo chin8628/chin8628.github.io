@@ -4,7 +4,7 @@ date: '2021-05-01 14:08:49'
 draft: false
 slug: review-before-your-eyes
 cover:
-  image: BYE_main_art_alt.png
+  image: BYE_main_art_alt.jpg
   relative: true
 aliases:
   - /2021/05/01/review-before-your-eyes/
