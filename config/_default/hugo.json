@@ -1,0 +1,65 @@
+{
+   "googleAnalytics": "G-2SJYW3PFZR",
+   "outputs": {
+      "home": ["HTML", "RSS", "JSON"]
+   },
+   "locale": "th-th",
+   "title": "Cloudian",
+   "theme": "PaperMod",
+   "params": {
+      "env": "production",
+      "ShowReadingTime": false,
+      "ShowShareButtons": false,
+      "ShowPostNavLinks": true,
+      "ShowBreadCrumbs": true,
+      "ShowCodeCopyButtons": true,
+      "ShowToc": true,
+      "DateFormat": "2 January 2006"
+   },
+   "taxonomies": {
+      "tag": "tags"
+   },
+   "imaging": {
+      "resampleFilter": "lanczos",
+      "anchor": "smart",
+      "bgColor": "#ffffff",
+      "jpeg": {
+         "quality": 75
+      },
+      "webp": {
+         "quality": 75,
+         "hint": "photo"
+      },
+      "avif": {
+         "quality": 75,
+         "hint": "photo"
+      },
+      "meta": {
+         "fields": ["! *{GPS,Exif,Exposure[MPB],Contrast,Resolution,Sharp,JPEG,Metering,Sensing,Saturation,ColorSpace,Flash,WhiteBalance}*"],
+         "sources": ["exif", "iptc"]
+      }
+   },
+   "markup": {
+      "goldmark": {
+         "renderer": {
+            "unsafe": true
+         }
+      }
+   },
+   "menu": {
+      "main": [
+         {
+            "identifier": "about-me",
+            "name": "About Me",
+            "url": "/about-me/",
+            "weight": 10
+         },
+         {
+            "identifier": "search",
+            "name": "Search",
+            "url": "/search/",
+            "weight": 20
+         }
+      ]
+   }
+}
