@@ -1,0 +1,46 @@
+{
+   "baseURL": "http://localhost:1313/",
+   "googleAnalytics": "G-2SJYW3PFZR",
+   "outputs": {
+      "home": ["HTML", "RSS", "JSON"]
+   },
+   "locale": "th-th",
+   "title": "Cloudian",
+   "theme": "PaperMod",
+   "params": {
+      "env": "production",
+      "ShowReadingTime": false,
+      "ShowShareButtons": false,
+      "ShowPostNavLinks": true,
+      "ShowBreadCrumbs": true,
+      "ShowCodeCopyButtons": true,
+      "ShowToc": true,
+      "DateFormat": "2 January 2006"
+   },
+   "taxonomies": {
+      "tag": "tags"
+   },
+   "markup": {
+      "goldmark": {
+         "renderer": {
+            "unsafe": true
+         }
+      }
+   },
+   "menu": {
+      "main": [
+         {
+            "identifier": "about-me",
+            "name": "About Me",
+            "url": "/about-me/",
+            "weight": 10
+         },
+         {
+            "identifier": "search",
+            "name": "Search",
+            "url": "/search/",
+            "weight": 20
+         }
+      ]
+   }
+}

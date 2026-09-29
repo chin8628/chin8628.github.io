@@ -1,0 +1,24 @@
+.list {
+    background: var(--theme);
+}
+
+[data-theme="dark"] .list {
+    background: var(--theme);
+}
+
+:root {
+    --theme: #f6f5f1;
+}
+
+body,
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Serif Thai', serif;
+}
+
+body {
+    line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+}
