@@ -165,11 +165,9 @@ aliases:
 
 #### คลิปและลิงก์เว็บต่าง ๆ
 
-{{< figure src="http://topicstock.pantip.com/favicon.ico" caption="อยากทราบว่าขนมในการ์ตูนเรื่องนี้มีจริงไหมครับ(สงสัยมานานมาก)" >}}
+[Pantip: อยากทราบว่าขนมในการ์ตูนเรื่องนี้มีจริงไหมครับ(สงสัยมานานมาก)](https://topicstock.pantip.com/food/topicstock/2010/10/D9810149/D9810149.html)
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/C6E0p0cF5NI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-
-<iframe width="720" height="405" src="https://www.youtube.com/embed/9kbY-s-8KMU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 <iframe width="720" height="405" src="https://www.youtube.com/embed/R_wfUnXH8Os?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
