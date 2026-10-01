@@ -41,7 +41,7 @@ aliases:
 
 ราคาโรงแรมตกคืนละสามพันกว่าบาท หารกับเพื่อนก็คนละพันห้า ถือว่าไม่แพงมากสำหรับที่พักบนเกาะพื้นที่จำกัดแบบนี้
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3690.9379430589424!2d114.1706107!3d22.3181866!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c130565a83%3A0x4a91e05e1bdd9b81!2sThe%20Cityview!5e0!3m2!1sen!2sth!4v1790868352894!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3690.9379430589424!2d114.1706107!3d22.3181866!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c130565a83%3A0x4a91e05e1bdd9b81!2sThe%20Cityview!5e0!3m2!1sen!2sth!4v1790868352894!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 สภาพห้องคือดีตามมาตรฐาน ไม่ใหญ่มาก ห้องน้ำมีอ่างให้แช่แต่ประตูไม่มีล็อค ต้องอาศัยความเชื่อใจกับเพื่อนที่ไปเที่ยวด้วย
 
@@ -83,7 +83,7 @@ aliases:
 
 {{< figure src="PXL_20231203_111548557.jpg" >}}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1845.522004526703!2d114.1678248!3d22.3141753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c12a040a2d%3A0x89b472e2df9a48fb!2sTenRen's%20Tea%20(Yau%20Ma%20Tei)!5e0!3m2!1sen!2sth!4v1790868380310!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1845.522004526703!2d114.1678248!3d22.3141753!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c12a040a2d%3A0x89b472e2df9a48fb!2sTenRen's%20Tea%20(Yau%20Ma%20Tei)!5e0!3m2!1sen!2sth!4v1790868380310!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 ### โจ๊ก
 
@@ -97,7 +97,7 @@ aliases:
 
 {{< figure src="PXL_20231206_032933508-min.jpg" caption="ตับเน้น ๆ" >}}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3691.0625508301637!2d114.167262!3d22.313474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404018938715f05%3A0x44bbc6db31258a3b!2sChung%20Kee%20Congee!5e0!3m2!1sen!2sth!4v1790868392201!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3691.0625508301637!2d114.167262!3d22.313474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404018938715f05%3A0x44bbc6db31258a3b!2sChung%20Kee%20Congee!5e0!3m2!1sen!2sth!4v1790868392201!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 ### หมึกเสียบไม้
 
@@ -115,7 +115,7 @@ aliases:
 
 {{< figure src="PXL_20231204_114618060.jpg" caption="หน้าร้าน Fat Lady" >}}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.001701697324!2d114.17173299999999!3d22.3157754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404017fc70aa78d%3A0xfdb34d8917e8a83a!2z6IKl5aeQ5bCP6aOf!5e0!3m2!1sen!2sth!4v1790868402733!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.001701697324!2d114.17173299999999!3d22.3157754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3404017fc70aa78d%3A0xfdb34d8917e8a83a!2z6IKl5aeQ5bCP6aOf!5e0!3m2!1sen!2sth!4v1790868402733!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 ### วาฟเฟิลฮ่องกง
 
@@ -127,7 +127,7 @@ aliases:
 
 {{< figure src="PXL_20231204_131551752.jpg" caption="อันใหญ่มาก กินคนเดียวอิ่มได้เป็นมื้อ" >}}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.972240053316!2d114.17140619999999!3d22.3168896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401a5dfacdb6b%3A0xb80f3e557ac94fbd!2z6JuL5LuU6KiY6Zue6JuL5LuU!5e0!3m2!1sen!2sth!4v1790868416818!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.972240053316!2d114.17140619999999!3d22.3168896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401a5dfacdb6b%3A0xb80f3e557ac94fbd!2z6JuL5LuU6KiY6Zue6JuL5LuU!5e0!3m2!1sen!2sth!4v1790868416818!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 ### ติ่มซำ
 
@@ -141,7 +141,7 @@ aliases:
 
 {{< figure src="PXL_20231204_120554920-1.jpg" caption="เนื้อห่อแผ่นเต้าหู้ ของเด็ด แนะนำให้ลอง" >}}
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3690.9668272300933!2d114.1710312!3d22.3170943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c6edf26e9f%3A0x32f253738cec685e!2sTong%20Kee%20Bao%20Dim!5e0!3m2!1sen!2sth!4v1790868429027!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3690.9668272300933!2d114.1710312!3d22.3170943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c6edf26e9f%3A0x32f253738cec685e!2sTong%20Kee%20Bao%20Dim!5e0!3m2!1sen!2sth!4v1790868429027!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 อีกร้านที่ได้ลองแล้วประทับใจ คือ **Hay Wong Dim Sum** เป็นร้านนั่งทางได้ อยู่บริเวณมงก๊กเลย ร้านนี้เมนูหลากหลาย ได้ลองแปลก ๆ เช่น ข้าวหน้าหมูอบคลุกไข่ดิบ
 
@@ -159,7 +159,7 @@ aliases:
 
 ร้านราคาไม่แพงมาก 4 จาน เดินออกมาแบบจุก ๆ กับเพื่อนอีกคน
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3690.9668272300933!2d114.1710312!3d22.3170943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401ef9091aaff%3A0x10c9724e81118796!2sHay%20Wong!5e0!3m2!1sen!2sth!4v1790868438217!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3690.9668272300933!2d114.1710312!3d22.3170943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340401ef9091aaff%3A0x10c9724e81118796!2sHay%20Wong!5e0!3m2!1sen!2sth!4v1790868438217!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 ### ของทอดเสียบไม้
 
@@ -169,7 +169,7 @@ aliases:
 
 เป็นของกินเล่น (หรือกินจริงจังก็ได้) เหมาะกับการเดินกินระหว่างเที่ยวย่านมงก๊ก
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d461.37188929462496!2d114.1715346!3d22.3167809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c6f73f0839%3A0xe059a3ea30b2c4cb!2sHot-Star%20Large%20Fried%20Chicken!5e0!3m2!1sen!2sth!4v1790868490677!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d461.37188929462496!2d114.1715346!3d22.3167809!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c6f73f0839%3A0xe059a3ea30b2c4cb!2sHot-Star%20Large%20Fried%20Chicken!5e0!3m2!1sen!2sth!4v1790868490677!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 ### ของหวานฮ่องกง
 
@@ -185,7 +185,7 @@ aliases:
 
 ร้านนี้ช่วงคนแน่นนั่งนานไม่ได้ กลุ่มเรานั่งเม้าท์นานทั้งที่กินหมดแล้ว พนักงานเลยมาบอกว่าคนต่อคิวเยอะมาก รบกวนช่วยจ่ายเงินแล้วสละโต๊ะให้ลูกค้าท่านอื่นได้ไหม
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.0084512681356!2d114.18205560000001!3d22.2776697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040183e2826ecd%3A0x8f63f78d4eddbe39!2sAuntie%20Sweet%20(Yiu%20Wa%20Street)!5e0!3m2!1sen!2sth!4v1790868498176!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.0084512681356!2d114.18205560000001!3d22.2776697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040183e2826ecd%3A0x8f63f78d4eddbe39!2sAuntie%20Sweet%20(Yiu%20Wa%20Street)!5e0!3m2!1sen!2sth!4v1790868498176!5m2!1sen!2sth" width="720" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 
 * * *
 
