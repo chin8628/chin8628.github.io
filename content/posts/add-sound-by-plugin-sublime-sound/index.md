@@ -24,7 +24,7 @@ aliases:
 
 ก็ใครเบื่อๆอยากหาอะไรแปลกๆก็ลองเล่นดูได้ครับ //มีวิดีโอให้ดูหากยังอยากเห็นตัวอย่างเพิ่มเติม
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3KSnHH-VMLs?rel=0" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/3KSnHH-VMLs?rel=0" frameborder="0" allowfullscreen=""></iframe>
 
 Link: [https://github.com/airtoxin/Sublime-Sound](https://github.com/airtoxin/Sublime-Sound)
 

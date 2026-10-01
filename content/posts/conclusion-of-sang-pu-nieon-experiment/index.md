@@ -118,7 +118,7 @@ aliases:
 
 {{< figure src="photo_2021-12-30_12-51-27-1.jpg" >}}
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/21mBaM_KtZI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/21mBaM_KtZI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
 หลังจากจบรอบนี้ ก็ทำซ้ำอีกรอบสองรอบแล้วพบว่า สูตรนี้แหละลงตัว ทำซ้ำแล้วไม่พัง ทั้งหมดนี้จึงจะขอสรุปสูตรไว้ดังนี้ครับ
 
@@ -167,10 +167,10 @@ aliases:
 
 {{< figure src="http://topicstock.pantip.com/favicon.ico" caption="อยากทราบว่าขนมในการ์ตูนเรื่องนี้มีจริงไหมครับ(สงสัยมานานมาก)" >}}
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/C6E0p0cF5NI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/C6E0p0cF5NI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/9kbY-s-8KMU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/9kbY-s-8KMU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/R_wfUnXH8Os?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/R_wfUnXH8Os?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/SEl7iHL-o5M?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/SEl7iHL-o5M?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>

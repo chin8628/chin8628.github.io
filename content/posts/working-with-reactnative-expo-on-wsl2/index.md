@@ -71,7 +71,7 @@ yarn start
 
 #### Video
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/WPJAxcWURUk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" title="running expo on wsl"></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/WPJAxcWURUk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" title="running expo on wsl"></iframe>
 
 ## Running only React Native inside WSL (without Expo)
 
@@ -103,7 +103,7 @@ ifconfig
 
 ### Video
 
-<iframe width="200" height="113" src="https://www.youtube.com/embed/quxvG2Y1edE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" title="running react native on wsl"></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/quxvG2Y1edE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" title="running react native on wsl"></iframe>
 
 ## Known issues
 

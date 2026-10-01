@@ -77,6 +77,6 @@ Starbuck เกาหลีใต้ใช้วิธีการระบุ�
 
 ปิดด้วยวิดีโอของเจ้าของผลงานครับ เขาไปทดลองปลอมสัญญาณตามงานวิจัยที่เขาทำ
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oN9kB169lvE" frameborder="0" allowfullscreen=""></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/oN9kB169lvE" frameborder="0" allowfullscreen=""></iframe>
 
 อ้างอิงจาก: [http://ieeexplore.ieee.org/document/7876970/](https://ieeexplore.ieee.org/document/7876970/)

@@ -1,7 +1,7 @@
 ---
 title: บทสัมภาษณ์น้องภูมิ โค้ดเดอร์รุ่นเยาว์ที่ขึ้นพูดในเวทีงาน JSConf ณ สิงค์โปร์ กับชีวิตความสำเร็จนอกระบบการศึกษา
 date: '2018-04-22 07:08:46'
-draft: false
+draft: true
 slug: interview-phoom-the-young-programmer
 cover:
   image: IMG_20180217_130827.jpg
@@ -162,6 +162,6 @@ aliases:
 
 **วิดีโอคำถามพิเศษ คำพูดจากน้องภูมิฝากถึงเพื่อน ๆ และคนอื่น ๆ ที่ยังเรียนหนังสือในระบบการศึกษาไทย**
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;"><iframe width="560" height="315" src="https://www.youtube.com/embed/knoVWEafdA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
+<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;"><iframe width="720" height="405" src="https://www.youtube.com/embed/knoVWEafdA0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></div>
 
 .

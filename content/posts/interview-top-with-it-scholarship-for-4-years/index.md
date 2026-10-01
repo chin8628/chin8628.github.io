@@ -1,7 +1,7 @@
 ---
 title: บทสัมภาษณ์พี่ท็อป จากคณะ IT กับความสำเร็จทุนเรียนป.ตรีฟรี (และคลิปตอบคำถามพิเศษ)
 date: '2018-03-11 08:56:01'
-draft: false
+draft: true
 slug: interview-top-with-it-scholarship-for-4-years
 cover:
   image: IMG_6724.jpg
@@ -126,4 +126,4 @@ aliases:
 
 **วิดีโอคำถามพิเศษ คำพูดจากคุณท็อปฝากถึงเพื่อน ๆ และรุ่นน้องที่ต้องการประสบความสำเร็จด้านการศึกษาเช่นเดียวกัน**
 
-<div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;"><iframe src="https://www.youtube.com/embed/eb4YOcT0UUc?rel=0&amp;showinfo=0" style="border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;" allowfullscreen="" scrolling="no"></iframe></div>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/eb4YOcT0UUc?si=a2SMmxr_LcujEpjl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
