@@ -22,3 +22,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.5;
 }
+
+.md-content figure > figcaption {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.md-content figure > figcaption > p {
+    margin-top: 0;
+}
+
+.md-content figure img {
+    margin-bottom: 0;
+}
